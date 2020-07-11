@@ -1,0 +1,39 @@
+.about-detail {
+  max-width: 620px;
+  margin: auto;
+}
+
+.about-image {
+  max-height: 300px;
+  /* height: 300px; */
+  width: auto;
+  max-width: 560px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6));
+}
+
+.content {
+  text-align: left;
+}
+
+/* bootstrap footer */
+footer {
+  background-color: #222222;
+  padding: 40px 0px;
+  margin-top: 2em;
+  width: 100%;
+}
+
+footer ul.menu {
+  padding: 0;
+}
+
+footer .footer-link a {
+  font-size: 22px;
+  color: #b1aca1;
+  padding: 0 4px;
+  text-decoration: none;
+}
+
+footer .footer-link a:hover {
+  color: #7dabdb;
+}

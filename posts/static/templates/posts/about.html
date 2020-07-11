@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'posts/css/about.css' %}">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="{% url 'index' %}">
+      Naoya's portfolio.
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'index' %}">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'about' %}">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="text-center about-detail">
+    <br><br>
+    <h1 style="text-shadow: 0 1px 2px;">About</h1>
+    <br>
+    <img src="{% static 'posts/0013.png' %}" class="about-image img-fluid">
+    <br><br><br><br>
+    <h3><b>管理者の投稿した記事を閲覧できるサイトです</b></h3>
+    <br>
+
+    <div class="content">
+      <h4><b>概要</b></h4>
+      Web開発の練習として、ブログアプリを作成しました。<br>
+      トップページは記事の一覧が表示されます。各記事は、画像・タイトル・投稿日時・内容が表示され、画像かタイトルをクリックすると詳細ページに移動できるようになっています。<br>
+      詳細ページはタイトル・投稿日時・画像・内容全文が表示されます。<br>
+      <br>
+      <h4><b>使用技術</b></h4>
+      使用した技術は以下の通りです。<br>
+      <ul>
+        <li>Django(Webアプリケーションフレームワーク)</li>
+        <li>Bootstrap(UIフレームワーク)</li>
+        <li>AWS EC2(クラウドサーバ)</li>
+        <ul>
+          <li>Nginx(Webサーバ)</li>
+          <li>gunicorn(アプリケーションサーバ)</li>
+          <li>PostgreSQL(データベース)</li>
+        </ul>
+      </ul>
+      <br>
+      <h4><b>管理者</b></h4>
+      情報系の大学院生です。言語としては主にPythonを使っています。<br>
+      Web系は専門ではありませんが、個人的にWeb開発に興味を持っており、現在勉強中です。<br>
+      Webアプリの作成方法、Webサイトの公開手順などは <a href="https://noynoy.hatenablog.com/">はてなブログ</a>に記載する予定です。<br>
+      コンタクトは <a href="https://twitter.com/b_o_c_708">Twitter</a>からお願いします。
+      <br>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-link text-center">
+      <a href="{% url 'index' %}">Home</a>
+      <a href="{% url 'about' %}">About</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
