@@ -31,8 +31,8 @@ Web開発の練習として、ブログアプリを作成しました。
 
 投稿記事管理(管理者画面)
 
-![screencapture-18-217-61-213-admin-posts-post-2020-07-13-12_32_42](https://user-images.githubusercontent.com/67271461/87269083-179f9a00-c507-11ea-93f6-6a343d74fa8e.png)
+![screencapture-18-217-61-213-admin-posts-post-2020-07-13-12_32_42](https://user-images.githubusercontent.com/67271461/87269390-01460e00-c508-11ea-9390-4cabee7086dd.png)
 
 投稿内容記載(管理者画面)
 
-![screencapture-18-217-61-213-admin-posts-post-add-2020-07-13-12_30_58](https://user-images.githubusercontent.com/67271461/87269093-1ec6a800-c507-11ea-91c2-4595b331435b.png)
+![screencapture-18-217-61-213-admin-posts-post-add-2020-07-13-12_30_58](https://user-images.githubusercontent.com/67271461/87269412-0c00a300-c508-11ea-8695-a8195bd0ebc4.png)
